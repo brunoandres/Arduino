@@ -1,5 +1,6 @@
 //Ejercicio 4 lampara mezcla de colores
 //imagen adjunta : http://prntscr.com/jf17to
+//link : https://www.tinkercad.com/things/lD3hMHcIMT8-lampara-mezcla-de-colores/editel
 
 const int PinLedVerde=9;
 const int PinLedRojo=11;
