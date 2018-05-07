@@ -1,0 +1,41 @@
+Ejercicio 2 montando el circuito
+//imagenes adjuntas : http://prntscr.com/jf0yij, http://prntscr.com/jf0yys
+
+//defino la ubicacion de los led y el boton dentro de la placa arduino
+int switchState=0;
+int led1=3;
+int led2=4;
+int led3=5;
+int boton=2;
+
+//configuracion de seteo inicial
+//se definen los 3 led como salida y el boton como input
+void setup(){
+  pinMode(led1, OUTPUT);
+  pinMode(led2, OUTPUT);
+  pinMode(led3, OUTPUT);
+  pinMode(boton, INPUT);
+  }
+ 
+//comienzo de ejecucion y repeticion del circuito
+void loop(){
+
+switchState = digitalRead(boton);
+  //si el boton no esta pulsado, se mantiene encendido el led verde
+  if(switchState==LOW){
+    digitalWrite(led1,HIGH);
+    digitalWrite(led2,LOW);
+    digitalWrite(led3,LOW);
+  }
+  //sino, empiezan a encederse y apagarse los led rojos
+  else{
+  
+    digitalWrite(led1,LOW);
+    digitalWrite(led2,LOW);
+    digitalWrite(led3,HIGH);
+    delay(250);
+    digitalWrite(led2,HIGH);
+    digitalWrite(led3,LOW);
+    delay(250);
+    }
+}
