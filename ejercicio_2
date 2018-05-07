@@ -1,5 +1,7 @@
-Ejercicio 2 montando el circuito
+//Ejercicio 2 montando el circuito
 //imagenes adjuntas : http://prntscr.com/jf0yij, http://prntscr.com/jf0yys
+//link : https://www.tinkercad.com/things/iGoHGezGe4v-interface-de-nave-espacial/editel
+
 
 //defino la ubicacion de los led y el boton dentro de la placa arduino
 int switchState=0;
