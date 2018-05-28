@@ -1,5 +1,6 @@
-/* Arduino Tutorial: how to use an LCD 16x2 screen compatible with the Hitachi HD44780 driver
-   More info: http://www.ardumotive.com/how-to-use-an-lcd-dislpay-en.html  */
+//Ejercicio utilizando un display
+//Proyecto original en tinkercad : https://www.tinkercad.com/things/2E6Yx0LersE
+//Imagen proyecto nuestro https://drive.google.com/file/d/14moh4pwBibghwhuLV3N6KEag9tSweLtG/view?usp=sharing
 
 //Include LCD library
 #include <LiquidCrystal.h>
